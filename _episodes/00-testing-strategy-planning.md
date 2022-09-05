@@ -4,7 +4,7 @@ slug: dirac-test-document-review-test-strategy-planning
 teaching: 30
 exercises: 20
 questions:
-- "Does the code we develop work the way it should do? "
+- "Does the code we develop work the way it should do?"
 - "Can we (and others) verify these assertions for themselves?"
 - "To what extent are we confident of the accuracy of results that appear in publications?"
 objectives:
