@@ -20,11 +20,11 @@ So far in this course we’ve focused on learning software design and (some) tec
 In this episode we'll look at the benefits of review by others in our team looking at our code from a developer's perspective, and (at a higher level) by key stakeholders reviewing the software from an end-user's perspective.
 
 
-## Code Review
+## Code review
 
 As we've already mentioned, a good rule of thumb is to assume that others - including a future version of yourself - will **look** at our code. Code review brings that process forward, by having members of our team, lab, or other collaborators, review parts of our code and provide feedback. Note that we didn't mention reviewing *all* the code: code reviews are most effective and efficient when they focus on the most important parts that are critical to the software's functions.
 
-### What are the Benefits of Code Review?
+### What are the benefits of code review?
 
 An effective code review:
 
@@ -35,7 +35,7 @@ An effective code review:
 
 According to Michael Fagan, the author of the code inspection technique, rigorous inspections can remove 60-90% of errors from the code even before the first tests are run ([Fagan, 1976](https://doi.org/10.1147%2Fsj.153.0182)).
 
-### How to do a Code Review?
+### How to do a code review?
 
 There are many ways to accomplish an effective code review. It could be in an informal meeting between two people at a desk, with the code writer leading another through a portion of code, explaining its intent and the rationale for decisions made within the implementation, or it could be done within a larger setting, with the same goals but perhaps with a few colleagues or developers and the code writer presenting from a projector.
 
@@ -47,14 +47,14 @@ Here are some things to consider to get the most out of a code review (see blogs
 4. **Communicate clearly and effectively:** when reviewing code, be explicit about the action you request from the author.
 5. **Foster a positive feedback culture:** give feedback about the code, not about the author, and accept that there are multiple correct solutions to a problem. Sandwich criticism with positive comments and praise to keep the review positive.
 
-> ## Tool-assisted Code Review
+> ## Tool-assisted code review
 > 
 > Another way to accomplish code reviews is via a **tool-assisted code review**. Instead of undertaking a code review with others physically present, a tool is used to facilitate the process of code review. These tools can help by displaying what code files have changed and require review, and facilitating a conversation between team members (in the role of developer and reviewer). GitHub, for example, has a **pull request** feature on its code repositories, an increasingly popular method of delegating the task of review to others. The name 'pull request' suggests you are requesting that your changes are accepted into the repository.
 > 
 > With a pull request, changes are made to a source code repository in the form of commits that are then submitted as a pull request to the repository. These pull requests highlight the code changes from the commits and can be delegated to and reviewed by others, who have an opportunity to insert comments on the changes into their review. Once any reviews are submitted, a decision can then be made as to whether these changes can be integrated into the code base or rejected, at which point the pull request has served its purpose.
 {: .callout}
 
-> ## Action Stations!
+> ## Action stations!
 >
 > Take a look at the GitHub code repository at <https://github.com/softwaresaved/rf4>. Examine the contents of the repository (code, documentation, other assets) and consider what you think needs to be improved in order for you to use it successfully. What would make it difficult to install and use? What would be the top two things you would address first and why?
 > 
@@ -97,7 +97,7 @@ Here are some things to consider to get the most out of a code review (see blogs
 >{: .solution}
 {: .challenge}
 
-> ## What about a Good Example?
+> ## What about a good example?
 >
 > If you'd like to take a look at a "good" GitHub Python repository which embodies the use of many best practices, take a look at the one for the heavily used [Python Requests library](https://github.com/psf/requests).
 {: .callout}
