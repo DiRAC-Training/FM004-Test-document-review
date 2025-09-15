@@ -25,11 +25,11 @@ An IDE normally consists of at least a source code editor, build automation tool
 
 The following is a list of the most commonly seen IDE features:
 
-- **Syntax highlighting:** to show programming language constructs, keywords and the syntax errors with visually distinct colours and font effects
-- **Code completion:** to speed up programming by offering a set of possible (syntactically correct) code options
-- **Code search:** finding package, class, function and variable declarations, their usages and referencing
-- **Version control support:** to quickly add and commit new changes to source code repositories, without the need to use the command line
-- **Debugging:** the ability to inspect the state of a program and its variables as it runs by pausing (and stepping through) it's code line by line
+- **Syntax highlighting:** to show programming language constructs, keywords and the syntax errors with visually distinct colours and font effects.
+- **Code completion:** to speed up programming by offering a set of possible (syntactically correct) code options.
+- **Code search:** finding package, class, function and variable declarations, their usages and referencing.
+- **Version control support:** to quickly add and commit new changes to source code repositories, without the need to use the command line.
+- **Debugging:** the ability to inspect the state of a program and its variables as it runs by pausing (and stepping through) it's code line by line.
 
 IDEs are extremely useful and modern software development would be very hard without them. For example, there are a number of IDEs available for Python development; a good overview is available from the [Python Project Wiki](https://wiki.python.org/moin/IntegratedDevelopmentEnvironments).
 
