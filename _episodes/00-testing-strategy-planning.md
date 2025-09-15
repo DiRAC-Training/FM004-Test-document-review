@@ -47,19 +47,19 @@ The fundamental building block of testing itself is a *test case*, with test cas
 
 Each test case covers the following information:
 
-- A unique name or number to identify it
-- The software feature(e) covered by the test case (specifying any specific requirements from which this feature is derived, e.g. SR1 or SR2)
-- The input data to use for this test
-- What needs to be done to ensure the software is in the correct state for the test
-- How exactly to run the test with the input data
-- The predicted result of running the test
+- A unique name or number to identify it.
+- The software feature(e) covered by the test case (specifying any specific requirements from which this feature is derived, e.g. SR1 or SR2).
+- The input data to use for this test.
+- What needs to be done to ensure the software is in the correct state for the test.
+- How exactly to run the test with the input data.
+- The predicted result of running the test.
 
 When the test is run, the following are also noted (perhaps as an instance of the test plan, or within an issue on the code's source repository:
 
-- Date the test is run
-- A description of the actual result
-- Whether or not the test was successful (i.e. the actual result are equal to the predicted result)
-- Which (if any) errors were discovered
+- Date the test is run.
+- A description of the actual result.
+- Whether or not the test was successful (i.e. the actual result are equal to the predicted result).
+- Which (if any) errors were discovered.
 
 When followed, testing enables those within any software development effort to verify the software is behaving correctly. Software, particularly within academic research, is prone to the need for change during its development, so a successfully executed test plan and set of test cases provides assurance that the software's functionality continues to behave as intended despite these changes.
 
