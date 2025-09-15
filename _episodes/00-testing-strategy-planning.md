@@ -126,7 +126,7 @@ A collection of automated tests is often referred to as a *test suite*.
 
 ## Example: Unit Testing
 
-Let's have a look at how we may structure test cases as unit tests, within a *unit testing framework*. In such a framework we define our tests we want to run as functions, and the framework automatically runs each of these functions in turn, summarising the outputs.
+Let's have a look at how we may structure test cases as unit tests, within a *unit testing framework*. In such a framework we define our tests we want to run as functions and the framework automatically runs each of these functions in turn, summarising the outputs.
 
 Most people don’t enjoy writing tests, so if we want them to actually do it, it must be easy to:
 
