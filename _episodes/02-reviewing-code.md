@@ -11,7 +11,7 @@ objectives:
 - "Explain what happens in a code review."
 - "Describe some approaches to help run an effective code review."
 keypoints:
-- "Code review is where at least one other person looks at parts of a codebase in order to improve its code readability, understandability, quality and maintainability."
+- "Code review is where at least one other person looks at parts of a codebase in order to improve its code readability, understandability, quality, and maintainability."
 - "The first hour of code review matters the most."
 ---
 
