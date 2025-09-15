@@ -174,7 +174,7 @@ Which of these types of licence you prefer is up to you and those you develop co
 
 ## What is a Version Number Anyway?
 
-Software version numbers are everywhere, and there are many different ways to do it. A popular one to consider is [**Semantic Versioning**](https://semver.org/), where a given version number uses the format MAJOR.MINOR.PATCH. You increment the:
+Software version numbers are everywhere and there are many different ways to do it. A popular one to consider is [**Semantic Versioning**](https://semver.org/), where a given version number uses the format MAJOR.MINOR.PATCH. You increment the:
 
 - MAJOR version when you make incompatible API changes.
 - MINOR version when you add functionality in a backwards compatible manner.
