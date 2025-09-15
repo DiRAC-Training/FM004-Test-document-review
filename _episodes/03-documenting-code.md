@@ -22,7 +22,7 @@ keypoints:
 In previous episodes we've looked at what tools and techniques can help us design and develop good software for research. In this lesson we'll be looking at how we can document our software to ease reusability for others, including future versions of ourselves.
 
 
-## Documenting Code to Improve Reusability
+## Documenting code to improve reusability
 
 Reproducibility is a cornerstone of science, and scientists who work in many disciplines are expected to document the processes by which they've conducted their research so it can be reproduced by others. In Medicine, Pharmacology, and similar research fields for example, researchers use logbooks which are then used to write up protocols and methods for publication.
 
@@ -46,7 +46,7 @@ Whilst it's certainly arguable that writing documentation isn't as exciting as w
 
 In the next section we'll see that writing a sensible minimum set of documentation in a single document doesn't have to be expensive, and can greatly aid reproducibility.
 
-> ## What Makes Good Documentation?
+> ## What makes good documentation?
 >
 > Consider software you've used or developed in the past, where you've needed to refer to documentation. Which pieces of software had good documentation, and what made it good?
 {: .challenge}
@@ -56,7 +56,7 @@ In the next section we'll see that writing a sensible minimum set of documentati
 
 A code's README file, the very first piece of documentation people see when visiting a GitHub code repository for example, is the first piece of documentation (perhaps other than publications that refer to it) that people should read to acquaint themselves with the software. It concisely explains what the software is about and what it's for, and covers the steps necessary to obtain and install the software and use it to accomplish basic tasks. Think of it not as a comprehensive reference of all functionality, but more a short tutorial with links to further information - hence it should contain brief explanations and be focused on instructional steps to get people started.
 
-> ## How to Create a GitHub Repository README file?
+> ## How to create a GitHub repository README file?
 > 
 > If you're looking to write your own README for a GitHub repository, create a `README.md` file in the root directory of your repository. The `.md` indicates this is a **markdown** file, a lightweight markup language which is basically a text file with some extra syntax to provide ways of formatting them. A big advantage of them is that they can be read as plain-text files or as source files for rendering them with formatting structures, and are very quick to write. GitHub provides a very useful [guide to writing markdown](https://guides.github.com/features/mastering-markdown/) for its repositories.
 {: .callout}
@@ -124,7 +124,7 @@ For more verbose sections, there are usually just highlights in the README with 
 
 We'll finish these off later. See [Matias Singer's curated list of awesome READMEs](https://github.com/matiassingers/awesome-readme) for inspiration.
 
-### Other Documentation
+### Other documentation
 
 There are many different types of other documentation you should also consider writing and making available that's beyond the scope of this course. The key is to consider which audiences you need to write for, e.g. end users, developers, maintainers, etc., and what they need from the documentation. There's a Software Sustainability Institute [blog post on best practices for research software documentation](https://www.software.ac.uk/blog/2019-06-21-what-are-best-practices-research-software-documentation) that helpfully covers the kinds of documentation to consider and other effective ways to convey the same information.
 
@@ -136,12 +136,12 @@ One that you should always consider is **technical documentation**. This typical
 
 Of course, this all takes effort, and good and correct documentation requires that it is updated to keep in line with changes in the software which takes further effort. What's important is to consider what is *needed* and most helpful to other users and developers of the code: what problems will they (or do they) typically face when using the software? What needs explanation? What types of documentation should be written first?
 
-> ## Improving Documentation
+> ## Improving documentation
 >
 > Thinking again about software you've used or developed in the past, how could its usability have improved by additional documentation or changes to the existing documentation? What changes would you make?
 {: .challenge}
 
-## Choosing an Open Source Licence
+## Choosing an Open Source licence
 
 Software licensing can be a whole course in itself, so we’ll just summarise here. Your institution’s Intellectual Property (IP) team will be able to offer specific guidance that fits the way your institution thinks about software.
 
@@ -172,7 +172,7 @@ Which of these types of licence you prefer is up to you and those you develop co
 > It's a common misconception, but if a piece of software does not have a licence, it generally means others have no permissions from the software's creators to use, modify, or share the software. Simply that the code is freely and openly available is not enough; [without a license](https://choosealicense.com/no-permission/), the software is not (in a legal sense) usable by others.
 {: .callout}
 
-## What is a Version Number Anyway?
+## What is a version number anyway?
 
 Software version numbers are everywhere and there are many different ways to do it. A popular one to consider is [**Semantic Versioning**](https://semver.org/), where a given version number uses the format MAJOR.MINOR.PATCH. You increment the:
 
