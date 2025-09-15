@@ -17,7 +17,7 @@ keypoints:
 
 So far in this course we’ve focused on learning software design and (some) technical practices, tools and infrastructure that help the development of software. We've also looked at developing tests to check our code which is one way to reassure ourselves and others that our code behaves as intended. But what about the perspectives of other people, such as others in our lab group or development team, and importantly, how about any key collaborators or end users of our software?
 
-In this episode we'll look at the benefits of review - by others in our team looking at our code from a developer's perspective, and (at a higher level) by key stakeholders reviewing the software from an end-user's perspective.
+In this episode we'll look at the benefits of review by others in our team looking at our code from a developer's perspective, and (at a higher level) by key stakeholders reviewing the software from an end-user's perspective.
 
 
 ## Code Review
