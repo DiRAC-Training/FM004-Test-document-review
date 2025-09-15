@@ -109,12 +109,12 @@ We can and should extensively test our software manually, and it is a critical p
 
 However, manual testing is often time consuming and prone to error. Another style of testing is automated testing, where we write code that tests the functions of our software. Since computers are very good and efficient at automating repetitive tasks, we should take advantage of this wherever possible.
 
-On the other hand, automation enables us to define a potentially complex process in a repeatable way that is far less prone to error than manual approaches,and typically much faster. Once written, automated tests can be run many times, for instance whenever we change our code. And not just for ourselves: when others make use of your code, running these tests can help them build confidence in your code too.
+On the other hand, automation enables us to define a potentially complex process in a repeatable way that is far less prone to error than manual approaches and typically much faster. Once written, automated tests can be run many times, for instance whenever we change our code. And not just for ourselves: when others make use of your code, running these tests can help them build confidence in your code too.
 
 Thus, once defined, automation can also save us a lot of effort, particularly in the long run. There are three main types of automated tests:
 
 - **Unit tests** are tests for small and specific units of functionality, e.g. determining that a particular function returns output as expected given specific inputs.
-- **Functional or integration tests** work at a higher level, and test functional paths through your code, e.g. given some specific inputs, a set of interconnected functions across a number of modules (or the entire code) produce the expected result. These are particularly useful for exposing faults in how functional units interact.
+- **Functional or integration tests** work at a higher level and test functional paths through your code, e.g. given some specific inputs, a set of interconnected functions across a number of modules (or the entire code) produce the expected result. These are particularly useful for exposing faults in how functional units interact.
 - **Regression testing** is kind of a special case of testing that makes sure that your program’s output and behaviour hasn’t changed. For example, after making changes to your code to add new functionality or fix a bug, you may re-run your unit or integration tests to make sure they haven't broken anything. You may also add a new specific regression test to highlight if a particular bug has returned.
 
 A collection of automated tests is often referred to as a *test suite*.
