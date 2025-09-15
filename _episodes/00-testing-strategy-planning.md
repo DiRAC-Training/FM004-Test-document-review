@@ -206,7 +206,7 @@ tests/test_factorial.py ...                                               [100%]
 
 So what's happening here? When started without any arguments, pytest does a number of things to look for tests you have written. By default, it will recursively check in directories (including the current one) for files that begin with test_ and end with .py, and if found, it looks for functions whose names also start with the letters test_ and runs each one. It will even find test methods matching the same pattern within classes beginning with Test. See the pytest documentation on good practices if you'd like to know more about how pytest finds tests, and other file layouts you can use to arrange your tests.
 
-Notice the `...` after our test script:
+Note the `...` after our test script:
 
 - If the function completes without an assertion being triggered, we count the test as a success (indicated as `.`).
 - If an assertion fails, or we encounter an error, we count the test as a failure (indicated as F). The error is included in the output so we can see what went wrong.
