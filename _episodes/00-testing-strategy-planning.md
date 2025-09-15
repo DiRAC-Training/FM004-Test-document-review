@@ -16,7 +16,7 @@ objectives:
 keypoints:
 - "A test plan forms the foundation of any testing."
 - "We should write tests to verify that functions generate expected output given a set of specific inputs."
-- "The three main types of automated tests are **unit tests**, **functional tests** and **regression tests**."
+- "The three main types of automated tests are **unit tests**, **functional tests**, and **regression tests**."
 - "We can use a unit testing framework like `pytest` to structure and simplify the writing of tests."
 - "Testing program behaviour against both valid and invalid inputs is important and is known as **data validation**."
 ---
