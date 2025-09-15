@@ -174,10 +174,10 @@ def test_factorial_10():
 
 Each of these test functions, in a general sense, is called a test case - these are a specification of:
 
-- **Inputs**, e.g. the numbers we pass to our factorial function
+- **Inputs**, e.g. the numbers we pass to our factorial function.
 - **Execution conditions** - what we need to do to set up the testing environment to run our test, e.g. in this case, we need to import the factorial function from our mymath source code. We could include this import statement within each test function, but since we are testing the same function in all of them, for brevity we'll include it at the top of the script.
-- **Testing procedure**, e.g. call our factorial function with an input number and confirm that it equals our expected output. Here, we use Python's assert statement to do this, which will return false and fail the test if this condition does not hold
-- **Expected outputs**, e.g. the numbers to which we compare the result of calling the factorial function
+- **Testing procedure**, e.g. call our factorial function with an input number and confirm that it equals our expected output. Here, we use Python's assert statement to do this, which will return false and fail the test if this condition does not hold.
+- **Expected outputs**, e.g. the numbers to which we compare the result of calling the factorial function.
 
 Note the very strong similarity between these aspects and the definition of test case we had earlier. And here, we’re defining each of these things for a test case we can run independently that requires no manual intervention.
 
