@@ -45,7 +45,7 @@ Here are some things to consider to get the most out of a code review (see blogs
 2. **Do not review for too long in one sitting:** according to [Best Kept Secrets of Peer Code Review (Cohen, 2006)](https://www.amazon.co.uk/Best-Kept-Secrets-Peer-Review/dp/1599160676), the first hour of review matters the most as detection of defects significantly drops after this period. [Studies into code review](https://smartbear.com/resources/ebooks/the-state-of-code-review-2020-report/) also show that you should not review more than 400 lines of code at a time. Conducting more frequent shorter reviews seems to be more effective.
 3. **Focus on important parts of the code:** to be efficient, reserve code review for critical portions of code.
 4. **Communicate clearly and effectively:** when reviewing code, be explicit about the action you request from the author.
-5. **Foster a positive feedback culture:** ensure give feedback about the code, not about the author, and accept that there are multiple correct solutions to a problem. Sandwich criticism with positive comments and praise to keep the review positive.
+5. **Foster a positive feedback culture:** give feedback about the code, not about the author, and accept that there are multiple correct solutions to a problem. Sandwich criticism with positive comments and praise to keep the review positive.
 
 > ## Tool-assisted Code Review
 > 
