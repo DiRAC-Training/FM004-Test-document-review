@@ -8,11 +8,11 @@ questions:
 - "Can we (and others) verify these assertions for themselves?"
 - "To what extent are we confident of the accuracy of results that appear in publications?"
 objectives:
-- "Explain the reasons why testing is important "
-- "Explain the differences between a test plan and a test strategy"
-- "List what's typically included within a test case"
-- "Describe the benefits and drawbacks of manual and automated testing"
-- "Describe how unit tests can verify the correct behaviour of a program's functions"
+- "Explain the reasons why testing is important."
+- "Explain the differences between a test plan and a test strategy."
+- "List what's typically included within a test case."
+- "Describe the benefits and drawbacks of manual and automated testing."
+- "Describe how unit tests can verify the correct behaviour of a program's functions."
 keypoints:
 - "A test plan forms the foundation of any testing."
 - "We should write tests to verify that functions generate expected output given a set of specific inputs."
