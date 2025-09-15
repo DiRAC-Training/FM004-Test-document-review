@@ -24,7 +24,7 @@ keypoints:
 Being able to demonstrate that a process generates the right results is important in any field of research, whether it’s software generating those results or not. For the sake of argument, if each line we write has a 99% chance of being right, then a 70-line program will be wrong more than half the time. We need to do better than that, which means we need to test our software to catch these mistakes.
 
 
-## What Is Software Testing?
+## What is software testing?
 
 So when writing software we need to ask ourselves some key questions:
 
@@ -34,14 +34,14 @@ So when writing software we need to ask ourselves some key questions:
 
 If we are unable to demonstrate that our software fulfills these criteria, why would anyone use it? Having a well-defined and regularly used test strategy, test plan and test cases can help give us and others confidence that our software works as expected.
 
-### Test Strategy vs Test Plans
+### Test strategy vs test plans
 
 There are two key aspects to consider before we start thinking about actual tests:
 
 - A **test plan** defines the scope of what exactly is to be tested for a given piece of software, the objectives for testing, which tools or techniques will be used, how the software will be checked, and who will be involved. A test plan applies to a specific piece of software.
 - A **test strategy** contains guiding principles for testing, that covers the testing process e.g. how testing will be done, which formats to be used for defining test cases and recording results, and how tests will be reported. This may apply to many software projects, although in smaller groups and projects the test strategy may be defined within the test plan itself.
 
-### The Test Case
+### The test case
 
 The fundamental building block of testing itself is a *test case*, with test cases being run following the test plan. A project's test cases are typically derived from the project's specified requirements, so that if the software passes these tests it is said to fulfil those requirements.
 
@@ -63,7 +63,7 @@ When the test is run, the following are also noted (perhaps as an instance of th
 
 When followed, testing enables those within any software development effort to verify the software is behaving correctly. Software, particularly within academic research, is prone to the need for change during its development, so a successfully executed test plan and set of test cases provides assurance that the software's functionality continues to behave as intended despite these changes.
 
-> ## Design Tests for a New Feature
+> ## Design tests for a new feature
 > 
 > Look back at the Solution Requirements (SR1 or SR2) covered in the [Principles of Software Engineering Lesson](https://dirac-hpc.github.io/HPC-Skills/dirac-software-engineering-software-development-lifecycle#the-importance-of-getting-requirements-right). Using the list of what tests cases should include above, write a couple of test cases that verify that the feature behaves as specified in the requirements. Feel free to make any assumptions you need to write the tests, but note them.
 > 
@@ -103,7 +103,7 @@ When followed, testing enables those within any software development effort to v
 {: .challenge}
 
 
-## Manual vs Automated Testing
+## Manual vs automated testing
 
 We can and should extensively test our software manually, and it is a critical part of ensuring software functions correctly. It has the major benefit that the tester can observe the application during the actual test process, and interact with it as required to fulfill the test. As such, manual testing is also well-suited to testing aspects such as graphical user interfaces and reconciling visual outputs against inputs.
 
@@ -119,12 +119,12 @@ Thus, once defined, automation can also save us a lot of effort, particularly in
 
 A collection of automated tests is often referred to as a *test suite*.
 
-> ## Testing: a Rule of Thumb
+> ## Testing: a rule of thumb
 >
 > Overall, a good guiding principle behind testing is to *fail fast*. By prioritising the identification of failure – where unit testing can really help us – affords us the opportunity to find and resolve issues early, in particular, before they may lead to published results.
 {: .callout}
 
-## Example: Unit Testing
+## Example: unit testing
 
 Let's have a look at how we may structure test cases as unit tests, within a *unit testing framework*. In such a framework we define our tests we want to run as functions and the framework automatically runs each of these functions in turn, summarising the outputs.
 
@@ -183,7 +183,7 @@ Note the very strong similarity between these aspects and the definition of test
 
 Going back to our list of requirements, how easy is it to run these tests? Well, these tests are written to be used by a Python package called [pytest](https://docs.pytest.org/). Pytest is a testing framework that allows you to write test cases using Python.
 
-> ## What About Unit Testing in Other Languages?
+> ## What about unit testing in other languages?
 >
 > Other unit testing frameworks exist for Python, including Nose2 and Unittest, and the approach to unit testing can be translated to other languages as well, e.g. FRUIT for Fortran, JUnit for Java (the original unit testing framework), Catch for C++, etc.
 {: .callout}
