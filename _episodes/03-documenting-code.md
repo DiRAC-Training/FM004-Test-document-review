@@ -6,11 +6,11 @@ exercises: 20
 questions:
 - "How should we document and license our code?"
 objectives:
-- "Explain why documentation is important"
-- "Describe the minimum components of software documentation to aid reuse"
-- "Create a repository README file to guide others to successfully reuse a program"
-- "Understand other documentation components and where they are useful"
-- "Describe the basic types of open source software licence"
+- "Explain why documentation is important."
+- "Describe the minimum components of software documentation to aid reuse."
+- "Create a repository README file to guide others to successfully reuse a program."
+- "Understand other documentation components and where they are useful."
+- "Describe the basic types of open source software licence."
 keypoints:
 - "A huge contributor to the ability to reuse any software is documentation."
 - "Having only a short documentation document that covers the basics for getting the software up and running goes a long way, and can be amended and added to later."
@@ -38,11 +38,11 @@ A very useful form of documentation for understanding our code is code commentin
 
 Whilst it's certainly arguable that writing documentation isn't as exciting as writing code, it doesn't have to be expensive and brings many benefits. In addition to enabling general reproducibility by others, documentation...
 
-- Helps bring new staff researchers and developers up to speed quickly with using the software
-- Functions as a great aid to research collaborations involving software, where those from other teams need to use it
-- When well written, can act as a basis for detailing algorithms and other mechanisms in research papers, such that the software's functionality can be *replicated* and re-implemented elsewhere
-- Provides a descriptive link back to the science that underlies it. As a reference, it makes it far easier to know how to update the software as the scientific theory changes (and potentially vice versa)
-- Importantly, it can enable others to understand the software sufficiently to *modify and reuse* it to do different things
+- Helps bring new staff researchers and developers up to speed quickly with using the software.
+- Functions as a great aid to research collaborations involving software, where those from other teams need to use it.
+- When well written, can act as a basis for detailing algorithms and other mechanisms in research papers, such that the software's functionality can be *replicated* and re-implemented elsewhere.
+- Provides a descriptive link back to the science that underlies it. As a reference, it makes it far easier to know how to update the software as the scientific theory changes (and potentially vice versa).
+- Importantly, it can enable others to understand the software sufficiently to *modify and reuse* it to do different things.
 
 In the next section we'll see that writing a sensible minimum set of documentation in a single document doesn't have to be expensive, and can greatly aid reproducibility.
 
@@ -130,9 +130,9 @@ There are many different types of other documentation you should also consider w
 
 One that you should always consider is **technical documentation**. This typically aims to help other developers understand your code sufficiently well to make their own changes to it, which could include other members in your team (and as we said before, also a future version of yourself). This may include documentation that covers:
 
-- **Software's architecture/design**, including the different components and how they fit together and database design (if a database is used)
-- **API (Application Programmer Interface) documentation** that describes the interface points designed into your software for developers to use, e.g. for a software library
-- **Technical tutorials or 'how tos'** to accomplish developer-oriented tasks, such as compiling or building the code, development environments, or how to extend or modify the code in particular ways
+- **Software's architecture/design**, including the different components and how they fit together and database design (if a database is used).
+- **API (Application Programmer Interface) documentation** that describes the interface points designed into your software for developers to use, e.g. for a software library.
+- **Technical tutorials or 'how tos'** to accomplish developer-oriented tasks, such as compiling or building the code, development environments, or how to extend or modify the code in particular ways.
 
 Of course, this all takes effort, and good and correct documentation requires that it is updated to keep in line with changes in the software which takes further effort. What's important is to consider what is *needed* and most helpful to other users and developers of the code: what problems will they (or do they) typically face when using the software? What needs explanation? What types of documentation should be written first?
 
@@ -149,11 +149,11 @@ In IP law, software is considered a creative work of literature, so any code you
 
 Since software is automatically under copyright, without a licence no one may:
 
-- Copy it
-- Distribute it
-- Modify it
-- Extend it
-- Use it (actually unclear at present - this has not been properly tested in court yet)
+- Copy it.
+- Distribute it.
+- Modify it.
+- Extend it.
+- Use it (actually unclear at present - this has not been properly tested in court yet).
 
 Fundamentally there are two kinds of licence, **Open Source licences** and **Proprietary licences**, which serve slightly different purposes:
 
@@ -176,9 +176,9 @@ Which of these types of licence you prefer is up to you and those you develop co
 
 Software version numbers are everywhere, and there are many different ways to do it. A popular one to consider is [**Semantic Versioning**](https://semver.org/), where a given version number uses the format MAJOR.MINOR.PATCH. You increment the:
 
-- MAJOR version when you make incompatible API changes
-- MINOR version when you add functionality in a backwards compatible manner
-- PATCH version when you make backwards compatible bug fixes
+- MAJOR version when you make incompatible API changes.
+- MINOR version when you add functionality in a backwards compatible manner.
+- PATCH version when you make backwards compatible bug fixes.
 
 You can also add a hyphen followed by characters to denote a pre-release version, e.g. 1.0.0-alpha1 (first alpha release) or 1.2.3-beta4 (fourth beta release).
 
