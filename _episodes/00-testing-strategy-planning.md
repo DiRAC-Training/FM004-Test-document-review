@@ -131,9 +131,9 @@ Let's have a look at how we may structure test cases as unit tests, within a *un
 Most people don’t enjoy writing tests, so if we want them to actually do it, it must be easy to:
 
 - Add or change tests
-- Understand the tests that have already been written
+- Understand the tests that have already been written.
 - Run those tests, and
-- Understand those tests’ results
+- Understand those tests’ results.
 
 Test results must also be reliable. If a testing tool says that code is working when it’s not or reports problems when there actually aren’t any, people will lose faith in it and stop using it.
 
@@ -154,7 +154,7 @@ def factorial(n):
 ~~~
 {: .language-python}
 
-So, factorial(3) will give us 6, factorial(5) gives us 120. You'll notice we have also included a Python docstring at the head of the function, briefly describing what the function does, its input parameter, and what it returns, which is good practice.
+So, factorial(3) will give us 6, factorial(5) gives us 120. You'll note we have also included a Python docstring at the head of the function, briefly describing what the function does, its input parameter, and what it returns, which is good practice.
 
 Now let's see what some unit tests might look like using an example Python unit testing framework:
 
