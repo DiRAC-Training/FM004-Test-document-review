@@ -19,7 +19,7 @@ keypoints:
 - "Open source licences fall into two key categories: *copyleft* and *permissive*."
 ---
 
-In previous episodes we've looked at what tools and techniques can help us design and develop good software for research. In this lesson we'll be looking at how we can document our software to ease reusability for others - including future versions of ourselves.
+In previous episodes we've looked at what tools and techniques can help us design and develop good software for research. In this lesson we'll be looking at how we can document our software to ease reusability for others, including future versions of ourselves.
 
 
 ## Documenting Code to Improve Reusability
