@@ -79,7 +79,7 @@ Once we run the code within PyCharm's debugger, two sections appear that looks s
 - The `Frames` section on the left, which shows the **call stack** (the chain of functions that have been executed to lead to this point). We can traverse this chain of functions if we wish, to observe the state of each function.
 - The `Variables` section on the right, which displays the local and global variables currently in memory which we can select to observe their current state.
 
-We can also continue execution of the program at this point, until another breakpoint is reached or the program ends, or even step through the code one statement at a time. This gives us very fine-grained control of our program, as we attempt to diagnose any problems, and is incredibly useful when we need to know precisely what is happening when faults appear.
+We can also continue execution of the program at this point, until another breakpoint is reached or the program ends, or even step through the code one statement at a time. This gives us very fine-grained control of our program as we attempt to diagnose any problems, and is incredibly useful when we need to know precisely what is happening when faults appear.
 
 
 > ## Which One is for You?
