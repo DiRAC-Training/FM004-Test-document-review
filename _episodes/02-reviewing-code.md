@@ -28,10 +28,10 @@ As we've already mentioned, a good rule of thumb is to assume that others - incl
 
 An effective code review:
 
-- Prevents errors from creeping into your software by improving code quality at an early stage of the software development process
-- Provides developers with feedback from more senior developers to improve their own coding practices and expertise
+- Prevents errors from creeping into your software by improving code quality at an early stage of the software development process.
+- Provides developers with feedback from more senior developers to improve their own coding practices and expertise.
 - Helps with learning, i.e. sharing knowledge about the codebase, solution approaches, expectations regarding quality, coding standards, etc.
-- Helps increase the sense of collective code ownership and responsibility of code, which in turn helps increase the “bus factor” and reduce the risk or having a single person “responsible” for a certain part of the codebase
+- Helps increase the sense of collective code ownership and responsibility of code, which in turn helps increase the “bus factor” and reduce the risk or having a single person “responsible” for a certain part of the codebase.
 
 According to Michael Fagan, the author of the code inspection technique, rigorous inspections can remove 60-90% of errors from the code even before the first tests are run ([Fagan, 1976](https://doi.org/10.1147%2Fsj.153.0182)).
 
