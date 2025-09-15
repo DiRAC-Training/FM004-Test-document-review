@@ -24,14 +24,14 @@ In previous episodes we've looked at what tools and techniques can help us desig
 
 ## Documenting Code to Improve Reusability
 
-Reproducibility is a cornerstone of science, and scientists who work in many disciplines are expected to document the processes by which they've conducted their research so it can be reproduced by others. In medicinal, pharmacological, and similar research fields for example, researchers use logbooks which are then used to write up protocols and methods for publication.
+Reproducibility is a cornerstone of science, and scientists who work in many disciplines are expected to document the processes by which they've conducted their research so it can be reproduced by others. In Medicine, Pharmacology, and similar research fields for example, researchers use logbooks which are then used to write up protocols and methods for publication.
 
 Many things we've covered so far contribute directly to making our software reproducible - and indeed reusable - by others. A key part of this we'll cover now is software documentation, which is ironically very often given short shrift in academia. This is often the case even in fields where the documentation and publication of research method is otherwise taken very seriously.
 
 A few reasons for this are that writing documentation is often considered:
 
-- A low priority compared to actual research (if it's even considered at all)
-- Expensive in terms of effort, with little reward
+- A low priority compared to actual research (if it's even considered at all).
+- Expensive in terms of effort, with little reward.
 - Writing documentation is boring!
 
 A very useful form of documentation for understanding our code is code commenting, and is most effective when used to explain complex interfaces or behaviour, or the reasoning behind why something is coded a certain way. But code comments only go so far.
@@ -84,10 +84,10 @@ To give readers an idea of the software's capabilities, let's add some key featu
 
 Here are some key features of Inflam:
 
-- Provide basic statistical analyses over clinical trial data
-- Ability to work on trial data in Comma-Separated Value (CSV) format
-- Generate plots of trial data
-- Analytical functions and views can be easily extended based on its Model-View-Controller architecture
+- Provide basic statistical analyses over clinical trial data.
+- Ability to work on trial data in Comma-Separated Value (CSV) format.
+- Generate plots of trial data.
+- Analytical functions and views can be easily extended based on its Model-View-Controller architecture.
 ~~~
 {: .source}
 
@@ -112,13 +112,13 @@ Here we're making use of markdown links, with some text describing the link with
 
 That's got us started, but there are other aspects we should also cover:
 
-- *Installation/deployment:* step-by-step instructions for setting up the software so it can be used
-- *Basic usage:* step-by-step instructions that cover using the software to accomplish basic tasks
-- *Contributing:* for those wishing to contribute to the software's development, this is an opportunity to detail what kinds of contribution are sought and how to get involved
-- *Contact information/getting help:* which may include things like key author email addresses, and links to mailing lists and other resources
-- *Credits/Acknowledgements:* where appropriate, be sure to credit those who have helped in the software's development or inspired it
-- *Citation:* particularly for academic software, it's a very good idea to specify a reference to an appropriate academic publication so other academics can cite use of the software in their own publications and media. You can do this within a separate [CITATION text file](https://github.com/citation-file-format/citation-file-format) within the repository's root directory and link to it from the markdown
-- *Licence:* a short description of and link to the software's licence
+- *Installation/deployment:* step-by-step instructions for setting up the software so it can be used.
+- *Basic usage:* step-by-step instructions that cover using the software to accomplish basic tasks.
+- *Contributing:* for those wishing to contribute to the software's development, this is an opportunity to detail what kinds of contribution are sought and how to get involved.
+- *Contact information/getting help:* which may include things like key author email addresses, and links to mailing lists and other resources.
+- *Credits/Acknowledgements:* where appropriate, be sure to credit those who have helped in the software's development or inspired it.
+- *Citation:* particularly for academic software, it's a very good idea to specify a reference to an appropriate academic publication so other academics can cite use of the software in their own publications and media. You can do this within a separate [CITATION text file].(https://github.com/citation-file-format/citation-file-format) within the repository's root directory and link to it from the markdown.
+- *Licence:* a short description of and link to the software's licence.
 
 For more verbose sections, there are usually just highlights in the README with links to further information, which may be held within other markdown files within the repository or elsewhere.
 
