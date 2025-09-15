@@ -115,7 +115,7 @@ That's got us started, but there are other aspects we should also cover:
 - *Installation/deployment:* step-by-step instructions for setting up the software so it can be used.
 - *Basic usage:* step-by-step instructions that cover using the software to accomplish basic tasks.
 - *Contributing:* for those wishing to contribute to the software's development, this is an opportunity to detail what kinds of contribution are sought and how to get involved.
-- *Contact information/getting help:* which may include things like key author email addresses, and links to mailing lists and other resources.
+- *Contact information/getting help:* which may include things like key author email addresses and links to mailing lists and other resources.
 - *Credits/Acknowledgements:* where appropriate, be sure to credit those who have helped in the software's development or inspired it.
 - *Citation:* particularly for academic software, it's a very good idea to specify a reference to an appropriate academic publication so other academics can cite use of the software in their own publications and media. You can do this within a separate [CITATION text file].(https://github.com/citation-file-format/citation-file-format) within the repository's root directory and link to it from the markdown.
 - *Licence:* a short description of and link to the software's licence.
