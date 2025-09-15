@@ -42,7 +42,7 @@ Some examples of IDEs and code editors available for Windows, Linux and Mac OS:
 - [Apache Netbeans](https://netbeans.apache.org/), a popular IDE for Java development, but also for JavaScript, PHP, HTML5, and others.
 - [Microsoft Visual Studio Code](https://code.visualstudio.com/), a popular and free Microsoft code editor which is more lightweight with a gentler learning curve than IDEs like PyCharm, but still has many useful features including code completion, syntax highlighting, debugging, and version control support. It's also able to work with many different programming languages.
 
-### Visual Studio Code: an Example
+### Visual Studio Code: an example
 
 A typical IDE gives you an interface that looks something like this (taken from Microsoft's Visual Studio Code):
 
@@ -52,7 +52,7 @@ On the left there's a file navigator, allowing you to see and select files for e
 
 So the key benefit is that features that help deal with common software development tasks are within easy reach, and integrated within a single application with the aim to increase how productive you can be when writing software.
 
-## Using a Debugger to Find Code Problems
+## Using a debugger to find code problems
 
 Testing can tell us something is wrong in our code and give a rough idea of where the error is by which test(s) are failing. But it does not tell us exactly where the problem is (i.e. what line of code), or how it came about. To give us a better idea of what is going on, we can:
 
@@ -62,7 +62,7 @@ Testing can tell us something is wrong in our code and give a rough idea of wher
 
 But such approaches are often time consuming and sometimes not enough to fully pinpoint the issue. In complex programs, like simulation codes, we often need to get inside the code while it is running and explore. This is where using a debugger can be useful. You can think of debugging like performing exploratory surgery, but on code. Debuggers allow us to peer at the internal workings of a program, such as variables and other state, as it performs its functions.
 
-### PyCharm: a Debugging Example
+### PyCharm: a debugging example
 
 Let's look at a different IDE for an example of debugging - PyCharm.
 
@@ -82,7 +82,7 @@ Once we run the code within PyCharm's debugger, two sections appear that looks s
 We can also continue execution of the program at this point, until another breakpoint is reached or the program ends, or even step through the code one statement at a time. This gives us very fine-grained control of our program as we attempt to diagnose any problems, and is incredibly useful when we need to know precisely what is happening when faults appear.
 
 
-> ## Which One is for You?
+> ## Which one is for you?
 > 
 > Have a think about the different types of editors and IDEs we've discussed. Which one seems the right fit for you?
 {: .challenge}
